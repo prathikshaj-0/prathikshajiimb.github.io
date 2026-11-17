@@ -1,0 +1,164 @@
+/* Simple resume style: white background, shades of blue for text */
+
+body {
+  background-color: white;
+  color: #1e3a5f;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ---------- Navigation bar ---------- */
+nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #bcd4ee;
+  padding: 12px 20px;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 22px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: #2563b0;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover {
+  color: #0b2a5b;
+  text-decoration: underline;
+}
+
+/* ---------- Header ---------- */
+header {
+  text-align: center;
+  padding: 50px 20px 30px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 42px;
+  color: #0b2a5b;
+  margin: 0 0 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  color: #2563b0;
+  margin: 0 0 15px;
+}
+
+.links {
+  margin: 0;
+}
+
+/* ---------- Main content ---------- */
+main,
+footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  border-top: 1px solid #bcd4ee;
+  padding: 30px 0;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  color: #0b2a5b;
+  margin: 0 0 15px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #2563b0;
+  margin: 20px 0 4px;
+}
+
+.detail {
+  font-style: italic;
+  color: #5b84b1;
+  margin: 0 0 6px;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+a {
+  color: #2563b0;
+}
+
+a:hover {
+  color: #0b2a5b;
+}
+
+ul {
+  margin: 0;
+  padding-left: 22px;
+}
+
+abbr {
+  cursor: help;
+}
+
+/* ---------- Tables ---------- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #bcd4ee;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e8f1fb;
+  color: #0b2a5b;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  border-top: 1px solid #bcd4ee;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+address {
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.small {
+  font-size: 14px;
+  color: #5b84b1;
+}
+
+/* ---------- Small screens ---------- */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  th,
+  td {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
